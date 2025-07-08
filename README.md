@@ -57,30 +57,22 @@ We used transaction history to create RFM scores and assigned each customer to a
 - Assigned **RFM scores** from 1 to 5 using quantile-based ranking
 - Combined scores into a single string (e.g., `555`, `431`) for classification
 
-### 4. 🏷️ RFM Segment Naming
-Used rule-based naming conventions to categorize customers into intuitive segments:
-- **Champions**
-- **Loyal Customers**
-- **Potential Loyalist**
-- **At Risk**
-- **Hibernating**
-- **Need Attention**, etc.
+## 💡 Recommendations for Existing Customer Segments
 
----
+The following segments represent active or recently active customers who have made one or more purchases. These customers should be prioritized for personalized marketing and retention strategies:
 
-## 💡 Recommendations
+| Segment Name           | Description                                | Recommended Strategy                                                                 |
+|------------------------|--------------------------------------------|--------------------------------------------------------------------------------------|
+| **Champions**          | Recent, frequent, and high-spending buyers | Offer loyalty rewards, exclusive previews, and early access to new products         |
+| **Loyal**              | Consistently purchasing high-value buyers  | Upsell, cross-sell, and encourage referrals through loyalty programs                |
+| **Potential Loyalist** | Fairly new but show promising patterns     | Nurture with special onboarding campaigns and product recommendations               |
+| **Promising**          | Recent buyers with low spend/frequency     | Send personalized follow-ups and promotional offers to encourage repeat purchases   |
+| **Need Attention**     | Regular buyers showing signs of inactivity | Re-engage with personalized “We miss you” messages or time-limited discounts        |
+| **About To Sleep**     | Declining engagement with moderate value   | Use win-back email campaigns and survey-based feedback collection                   |
+| **At Risk**            | High value in past but now disengaged      | Run targeted reactivation campaigns and offer strong incentives to return           |
 
-Based on the RFM segments, the following actions are recommended:
+These strategies focus on retaining value-generating customers and reducing churn by aligning outreach efforts with each customer segment’s behavior.
 
-| Segment         | Suggested Action                                                              |
-|-----------------|-------------------------------------------------------------------------------|
-| Champions       | Reward with exclusive deals or early access programs                         |
-| Loyal Customers | Engage with loyalty perks or upselling opportunities                         |
-| At Risk         | Re-engage with feedback forms or limited-time discounts                      |
-| Hibernating     | Win back with reactivation campaigns                                         |
-| Need Attention  | Send personalized emails or incentives to boost engagement                   |
-
----
 
 ## 📒 Reference
 
